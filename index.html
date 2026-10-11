@@ -1,0 +1,494 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bilal Makki | Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="Assets/images/s.png">
+  <link rel="stylesheet" href="Assets/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+  
+</head>
+
+<body id="body">
+  <section id="navsection">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#navsection">
+          <img src="Assets/images/navbarlogo.png" class="navbar-logo" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon navbaricon">
+
+          </span>
+        </button>
+        <div class="collapse navbar-navs  navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto  mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link  " aria-current="page" href="#herosec">
+                <span class="navbarlink">Home</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbar-spacing" href="#aboutsec">
+                <span class="navbarlink ">About</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbar-spacing" href="#projectsec">
+                <span class="navbarlink">Projects</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbar-spacing " href="#clientsec">
+                <span class="navbarlink">Reviews</span>
+              </a>
+            </li>
+          </ul>
+          <a class="nav-link " href="#footer">
+            <button type="button" class=" nav-contactbtn"id="contactform">Contact Me</button>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <section id="herosec">
+    <span class="availabiltybtn ">
+      <svg width="12" height="18" viewBox="0 0 27 22" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="13" cy="14" r="13" fill="#FFAE00" />
+      </svg>
+      <span class="ms-1"> Ready to Code </span>
+    </span>
+    <div class="headcontainer">
+      <h1 class="mainheading">
+        Bilal
+        <br>
+        Makki
+      </h1>
+      <!-- <img src="Assets/images/bilalmakki-image.png" class="meimg" alt="Not"> -->
+      <img src="Assets/images/me.png" class="meimg" alt="Not">
+    </div>
+  </section>
+  <section id="whysec" class="container-fluid">
+    <span class="whybtn ">
+      <svg width="12" height="18" viewBox="0 0 27 22" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="13" cy="14" r="13" fill="#FFAE00" />
+      </svg>
+      <span class="ms-1">Why Choose Me</span>
+    </span>
+    <h2 class="whysecheading">
+      Why Work with Me
+    </h2>
+    <div class="row mt-5 mb-5 ">
+      <div class="col-lg-4 col-12 mt-3">
+        <div class="card" id="whyseccard">
+          <div class="card-body">
+            <svg width="54" height="54" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="64" height="64" rx="32" fill="#222222" />
+
+              <path d="M42 22L22 42M42 22L45 25M22 42L19 39" stroke="#FFAE00" stroke-width="3" stroke-linecap="round"
+                stroke-linejoin="round" />
+
+              <rect x="25" y="25" width="14" height="14" rx="2" stroke="#FFAE00" stroke-width="3" />
+
+              <line x1="20" y1="32" x2="25" y2="32" stroke="#FFAE00" stroke-width="2" stroke-linecap="round" />
+              <line x1="39" y1="32" x2="44" y2="32" stroke="#FFAE00" stroke-width="2" stroke-linecap="round" />
+              <line x1="32" y1="20" x2="32" y2="25" stroke="#FFAE00" stroke-width="2" stroke-linecap="round" />
+              <line x1="32" y1="39" x2="32" y2="44" stroke="#FFAE00" stroke-width="2" stroke-linecap="round" />
+            </svg>
+            <h3 class="whyseccardheading">Tailored Web Solutions</h3>
+            <p class="whyseccardpara mt-2">
+              I create custom, responsive websites tailored to your brand, goals, 
+              and audience, combining modern design with clean and scalable development.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-12 mt-3">
+        <div class="card" id="whyseccard">
+          <div class="card-body">
+            <svg width="54" height="54" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="64" height="64" rx="32" fill="#222222" />
+
+              <circle cx="32" cy="32" r="16" stroke="#FFAE00" stroke-width="3" />
+              <circle cx="32" cy="32" r="5" fill="#FFAE00" />
+
+              <path d="M32 16L38 24H26L32 16Z" fill="#FFAE00" />
+              <rect x="30" y="24" width="4" height="10" fill="#FFAE00" />
+            </svg>
+            <h3 class="whyseccardheading">User Focused Development</h3>
+            <p class="whyseccardpara mt-2">
+              I build fast, intuitive, and user-friendly websites with a strong focus on usability,
+               responsive design, performance, and seamless user experiences
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-12 mt-3">
+        <div class="card" id="whyseccard">
+          <div class="card-body">
+            <svg width="54" height="54" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="64" height="64" rx="32" fill="#222222" />
+
+              <path
+                d="M32 18C28.6863 18 26 20.6863 26 24V40C26 43.3137 28.6863 46 32 46C35.3137 46 38 43.3137 38 40V24C38 20.6863 35.3137 18 32 18Z"
+                stroke="#FFAE00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+
+              <path d="M42 22L47 17M17 47L22 42M42 42L47 47M17 17L22 22" stroke="#FFAE00" stroke-width="2"
+                stroke-linecap="round" />
+
+              <path d="M47 32H40M24 32H17M32 17V24M32 40V47" stroke="#FFAE00" stroke-width="2" stroke-linecap="round" />
+            </svg>
+            <h3 class="whyseccardheading">Modern Web Technologies</h3>
+            <p class="whyseccardpara mt-2">
+              I use modern web technologies and development practices 
+              to build scalable, secure, and high-performing websites that are ready for the future.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projectsec" class="container-fluid">
+    <span class="projectsecbtn ">
+      <svg width="12" height="18" viewBox="0 0 27 22" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="13" cy="14" r="13" fill="#FFAE00" />
+      </svg>
+      <span class="ms-1">Selected Work </span>
+    </span>
+
+    <h2 class="projectsecheading">
+      Elevating Brands with
+      <br>
+      Design Brilliance
+    </h2>
+    <div class="row mt-5">
+      <div class="col-lg-6 col-12">
+        <div class="card text-decoration-none" id="projectcard">
+          <div class="card-body">
+            <div class="row ">
+              <div class=" col-10">
+                <p class="card-text projectcardpara">
+                  <svg width="30" height="30" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M 25 20L 25 70C 25 72.76 27.24 75 30 75L 70 75" stroke="#FFAE00" stroke-width="10"
+                      stroke-linecap="round" fill="none" />
+                    <path d="M 70 75L 85 75M 75 70L 85 75L 75 80" stroke="#FFAE00" stroke-width="10"
+                      stroke-linecap="round" stroke-linejoin="round" fill="#FFAE00" />
+                    <path d="M 70 75L 85 75L 70 75L 70 75" fill="#FFAE00" />
+                    <path d="M 70 75 L 85 75L 75 80L 75 70Z" fill="#FFAE00" />
+                  </svg>
+                  TimeZone
+                </p>
+              </div>
+              <div class="col-2 pt-2">
+                <p class="projectcardpara">2024</p>
+              </div>
+            </div>
+          </div>
+          <img src="Assets/images/project 1.jpeg" class=" projectcardimg" alt="...">
+        </div>
+      </div>
+      <div class="col-lg-6 col-12 ">
+        <div class="card text-decoration-none" id="projectcard">
+          <div class="card-body">
+            <div class="row ">
+              <div class="col-10">
+                <p class="card-text projectcardpara">
+                  <svg width="30" height="30" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M 25 20L 25 70C 25 72.76 27.24 75 30 75L 70 75" stroke="#FFAE00" stroke-width="10"
+                      stroke-linecap="round" fill="none" />
+                    <path d="M 70 75L 85 75M 75 70L 85 75L 75 80" stroke="#FFAE00" stroke-width="10"
+                      stroke-linecap="round" stroke-linejoin="round" fill="#FFAE00" />
+                    <path d="M 70 75L 85 75L 70 75L 70 75" fill="#FFAE00" />
+                    <path d="M 70 75 L 85 75L 75 80L 75 70Z" fill="#FFAE00" />
+                  </svg>
+                  Construction Company Portfolio
+                </p>
+              </div>
+              <div class="col-2 pt-2">
+                <p class="projectcardpara">2025</p>
+              </div>
+            </div>
+          </div>
+          <img src="Assets/images/project 2.jpeg" class=" projectcardimg" alt="...">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="processsec">
+    <div class="row container-fluid">
+      <div class="col-lg-4 col-12">
+        <span class="whybtn ">
+          <svg width="12" height="18" viewBox="0 0 27 22" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="13" cy="14" r="13" fill="#FFAE00" />
+          </svg>
+          <span class="ms-1">My Process</span>
+        </span>
+        <h2 class="processsecheading">
+          My creative Workflow
+        </h2>
+
+      </div>
+      <div class="col-lg-8 col-12 ">
+        <p>
+        <h3 class="processseclisthead processdet">1. Discovery</h3>
+        <p class="processseclistpara">
+          I start by understanding your business, goals, target audience, and website requirements.
+           Through research and consultation, I gather the insights needed to create an effective digital experience.
+        </p>
+        </p>
+        <p class="pt-1">
+        <h3 class="processseclisthead">2. UI/UX Design</h3>
+        <p class="processseclistpara">
+          I create modern, user-friendly, and responsive website designs that align with your brand identity. 
+          Every layout is designed to provide a clear and engaging user experience across all devices.
+        </p>
+        </p>
+        <p class="pt-1">
+        <h3 class="processseclisthead">3. Web Development</h3>
+        <p class="processseclistpara">
+          I turn the approved design into a fast, responsive, and functional website using modern web technologies. 
+          I focus on clean code, performance, accessibility, and cross-browser compatibility.
+        </p>
+        </p>
+        <p class="pt-1">
+        <h3 class="processseclisthead">4. Testing & Launch</h3>
+        <p class="processseclistpara">
+          I thoroughly test your website for performance, responsiveness, usability, and functionality before launch.
+           After deployment, I provide support to ensure your website continues to perform smoothly.
+        </p>
+        </p>
+      </div>
+    </div>
+  </section>
+  <section id="aboutsec" class="container-fluid">
+    <div class="row">
+
+
+      <div class="col-lg-10 col-12 mt-5">
+        <span class="aboutsecbtn ">
+          <svg width="12" height="18" viewBox="0 0 27 22" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="13" cy="14" r="13" fill="#FFAE00" />
+          </svg>
+          <span class="ms-1">About Me</span>
+        </span>
+        <h2 class="aboutsecheading">
+          Discover My
+          <br>
+          Developing Journey
+        </h2>
+        <p class="aboutsecpara">
+          Hello! I’m Bilal Makki, a Software Engineering student and aspiring full-stack developer. I enjoy creating
+          responsive, user-friendly websites and exploring modern technologies to build innovative digital solutions. My
+          goal is to grow as a versatile developer while delivering projects that combine functionality with great
+          design
+        </p>
+        <p class="pt-2">
+          <span class="">
+            <a target="_blank" href="https://www.linkedin.com/in/bilalmakki/" class="text-decoration-none">
+              <img src="Assets/images/linkdin.svg" alt="">
+            </a>
+          </span>
+          <span class="ps-2">
+            <a target="_blank"  href="https://github.com/Bilalmakki-OP" class="text-decoration-none">
+              <img src="Assets/images/github.svg" alt="">
+            </a>
+          </span>
+          <span class="ps-2">
+            <a href="mailto:bilalmakki03@gmail.com" class="text-decoration-none">
+              <img src="Assets/images/email.svg" alt="">
+            </a>
+          </span>
+        </p>
+      </div>
+      <div class="col-lg-2 col-12 ">
+        <!-- <img src="Assets/images/me  2.png" class="aboutsecimg" alt=""> -->
+      </div>
+    </div>
+  </section>
+  <section id="clientsec" class="container-fluid">
+    <span class="whybtn ">
+      <svg width="12" height="18" viewBox="0 0 27 22" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="13" cy="14" r="13" fill="#FFAE00" />
+      </svg>
+      <span class="">
+        Client Reviews
+      </span>
+    </span>
+    <div class="row mt-5 ">
+      <div class="col-lg-4 col-12">
+        <div class="card container" id="clientseccard">
+          <div class="card-body">
+
+            <p class="card-text clientsecpara">
+              “Working with Bilal was a great experience. He built a modern, 
+              responsive website that perfectly matched our brand and exceeded our expectations for design and functionality.”
+            </p>
+            <!-- <p class="clientdetail">
+              Qasim Agha Khan
+              <br>
+              CEO,Technolangs
+            </p> -->
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-12">
+        <div class="card container" id="clientseccard">
+          <div class="card-body">
+
+            <p class="card-text clientsecpara">
+              “Bilal delivered a fast, professional, and 
+              user-friendly website that looks great on every device. His 
+              attention to detail and communication made the entire process easy.”
+            </p>
+            <!-- <p class="clientdetail">
+              Qasim Agha Khan
+              <br>
+              CEO,Technolangs
+            </p> -->
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-12">
+        <div class="card container" id="clientseccard">
+          <div class="card-body">
+
+            <p class="card-text clientsecpara">
+              “We’re extremely happy with our new website. Bilal understood our
+               goals and created a professional web solution that improved our online presence and user experience.”
+            </p>
+            <!-- <p class="clientdetail">
+              Qasim Agha Khan
+              <br>
+              CEO,Technolangs
+            </p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="footer" class="container">
+    <div class="footerbox ">
+      <div class="formcancel-container">
+        <div class="formcancel">
+          <button id="formcancel" class="text-decoration-none d-none formcancelbtn">
+            <i class="fa-solid fa-xmark fa-2xl" style="color: #fff;"></i>
+
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class=" text-center col-12">
+          <span class="footerbtn ">
+            <svg width="12" height="18" viewBox="0 0 27 22" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="13" cy="14" r="13" fill="#FFAE00" />
+            </svg>
+            <span class=" ms-1">
+              From sketch to launch
+            </span>
+          </span>
+          <h2 class="footerhead text-center mt-4 ">
+            From Concept to Code
+          </h2>
+        </div>
+
+
+        <div class="col-lg-6 col-12  d-none" id="formbox">
+          
+          <form method="POST" class="formbox" id="forms" name="clientinfo" class="pt-3">
+            <p class="confirm-msg d-none" id="confirmmsg">
+            Thank you! I’ll get back to you shortly.
+          </p>
+            <p class="error-msg d-none"id="errormsg">
+           Sorry! Something went wrong. Please try again.
+          </p>
+            <div class="row ">
+              <p class="col-sm-6  col-12">
+                <input type="text" required name="user_name" placeholder="Full Name*" class="clientforminput">
+              </p>
+              <p class="col-sm-6 col-12">
+                <input type="text" required placeholder="Phone Number*" class="clientforminput" name="user_phone">
+              </p>
+            </div>
+            <div class="row mt-1">
+               <p class="col-sm-6  col-12">
+                <input type="email" required placeholder="Email*" class="clientforminput" name="user_email">
+              </p>
+              <p class="col-sm-6 col-12">
+                <input type="text"required placeholder="Country*" class="clientforminput" name="user_country">
+              </p>
+            </div>
+            <!-- <input  value="Send"> -->
+            <button type="submit"class="clientformbtn"id="savebtn"name="savebtn">Send</button>
+          </form>
+        </div>
+
+        <div class="text-center mt-3">
+          <button class="contactbtn" id="formbtn">
+            Tell Me About Your Idea
+          </button>
+        </div>
+
+
+      </div>
+
+    </div>
+    <div class="footernav text-center">
+      <div class=" d-flex justify-content-center">
+<p>
+        <a href="#navsection" class="text-decoration-none footernavlink">
+          Home
+        </a>
+      </p>
+      <p class=" ps-4">
+        <a href="#aboutsec" class="text-decoration-none footernavlink">
+          About
+        </a>
+      </p>
+      <p class=" ps-4">
+        <a href="#projectsec" class="footernavlink text-decoration-none">
+          Project
+        </a>
+      </p>
+      <p class="ps-4">
+        <a href="#clientsec" class="footernavlink text-decoration-none">
+          Reviews
+        </a>
+      </p> 
+      </div>
+       
+      <p class="footer-copyright">
+        &copy;2026 Bilal Makki · Web Developer & Digital Solutions      </p>
+    </div>
+  </section>
+
+  <script>
+ 
+  document.getElementById("formbtn").addEventListener("click", function () {
+     document.getElementById("formcancel").classList.remove("d-none");
+    document.getElementById("formbox").classList.remove("d-none");
+  });
+  document.getElementById("contactform").addEventListener("click", function () {
+     document.getElementById("formcancel").classList.remove("d-none");
+    document.getElementById("formbox").classList.remove("d-none");
+  });
+  document.getElementById("formcancel").addEventListener("click", function () {
+     document.getElementById("formcancel").classList.add("d-none");
+    document.getElementById("formbox").classList.add("d-none");
+  });
+
+  </script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+
+</html>
