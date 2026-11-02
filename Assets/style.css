@@ -630,6 +630,11 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+    .contactbtn {
+    padding: 12px 20px;
+    font-size: 14px;
+}
+
     .navbar-navs {
 
         padding-left: 10px;
@@ -646,7 +651,7 @@
     }
 
     .footerhead {
-        font-size: 50px;
+        font-size: 40px;
 
     }
 
@@ -716,6 +721,11 @@
 
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
+    .contactbtn {
+    padding: 12px 20px;
+    font-size: 12px;
+}
+
       #herosec {
     background-color: #000;
     height:225px;
@@ -736,7 +746,7 @@
     }
 
     .footerhead {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     #clientseccard {
@@ -821,6 +831,11 @@
 }
 
 @media screen and (max-width: 576px) {
+    .contactbtn {
+    padding: 12px 20px;
+    font-size: 10px;
+}
+
     
     .footernavlink {
         font-size: 14px;
@@ -843,11 +858,11 @@
 
     .footerbtn {
         padding: 5px 8px;
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .footerhead {
-        font-size: 40px;
+        font-size: 28px;
     }
 
     .processbtn {
@@ -919,7 +934,7 @@
 }
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 476px) {
     #whyseccard {
     padding: 30px 5px;
 }
@@ -951,8 +966,8 @@
     }
 
     .footerbtn {
-        padding: 5px 6x;
-        font-size: 9px;
+        padding: 12px 6x;
+        font-size: 8px;
     }
 
     #clientseccard {
@@ -1005,7 +1020,7 @@
     }
 
     .footerhead {
-        font-size: 30px;
+        font-size: 22px;
     }
 
     .whysecheading {
@@ -1031,9 +1046,9 @@
     }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 371px) {
       .footerhead {
-        font-size: 20px;
+        font-size: 10px;
     }
     .availabiltybtn {
     padding: 5px 15px;
@@ -1063,7 +1078,11 @@
         font-size: 35px;
     }
 
-  
+  .contactbtn {
+    padding: 8px 15px;
+    
+}
+
 
     .footerhead {
         font-size: 30px;
@@ -1092,7 +1111,16 @@
     }
 }
 
-@media screen and (max-width: 330px) {
+
+@media screen and (max-width: 368px) {
+      .footerhead {
+        font-size: 12px;
+        letter-spacing: 1%;
+    }
+    .contactbtn {
+    font-size: 8px;
+}
+
     #herosec{
           background-color: #000;
     height:55px;
