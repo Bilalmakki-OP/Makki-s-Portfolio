@@ -1044,6 +1044,9 @@
   .footerhead {
         font-size: 20px;
     }
+    .display{
+    display: none;
+}
 }
 
 @media screen and (max-width: 371px) {
@@ -1117,8 +1120,30 @@
         font-size: 12px;
         letter-spacing: 1%;
     }
+    .display{
+    display: none;
+}
     .contactbtn {
+
     font-size: 8px;
+}
+
+
+}
+@media screen and (max-width: 335px) {
+     .footerbtn {
+        padding: 6px 6x;
+        font-size: 5px;
+    }
+      .footerhead {
+        font-size: 10px;
+        letter-spacing: 1%;
+    }
+    .contactbtn {
+    font-size: 6px;
+}
+.display{
+    display: none;
 }
 
     #herosec{
