@@ -935,6 +935,10 @@
 }
 
 @media screen and (max-width: 476px) {
+     .projectsecheading {
+        font-size: 20px;
+    }
+
     #whyseccard {
     padding: 30px 5px;
 }
